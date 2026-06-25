@@ -1,0 +1,33 @@
+{   
+    "model_name": "EleutherAI_gpt-j-6B",
+    "layers": [
+        3, 4, 5, 6, 7, 8
+    ],
+    "layer_selection": "all",
+    "fact_token": "subject_last",
+
+    "mom2_adjustment": true,
+    "mom2_update_weight": 15000,
+    "rewrite_module_tmp": "transformer.h.{}.mlp.fc_out",
+    "layer_module_tmp": "transformer.h.{}",
+    "mlp_module_tmp": "transformer.h.{}.mlp",
+    "attn_module_tmp": "transformer.h.{}.attn",
+    "ln_f_module": "transformer.ln_f",
+    "lm_head_module": "lm_head",
+    "mom2_dataset": "wikipedia",
+    "mom2_n_samples": 100000,
+    "mom2_dtype": "float32",
+
+
+    "lora_r": 1024,
+    "lora_alpha": 1024,
+    "lora_dropout": 0.1,
+    "lora_target_modules": [
+      "fc_out"
+    ],
+    "lora_learning_rate": 0.002,
+    "lora_batch_size": 32,
+    "lora_num_epochs": 25,
+    "lora_type": "lora",
+    "nullspace_threshold": 2e-2
+}
