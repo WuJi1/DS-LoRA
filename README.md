@@ -33,8 +33,7 @@ DS-LoRA addresses this scalability bottleneck by redesigns the low-rank branch w
 - scikit-learn==1.6.1
 - nltk==3.9.1
 
-We directly provide the checkpoints of four LLMs for sqeuential editing on [Google Drive](https://drive.google.com/drive/folders/1Bwg_nr5z6jsjjXDG7SkZU4GZylTPBf6y?usp=sharing)
-After decompressing it and saving it to the ".Edited_Weight/SCLoRA/" for evaluation.
+We directly provide the checkpoints of four LLMs for sqeuential editing on [Google Drive](https://drive.google.com/drive/folders/1Bwg_nr5z6jsjjXDG7SkZU4GZylTPBf6y?usp=sharing). After decompressing it and saving it to the ".Edited_Weight/SCLoRA/" for evaluation.
 ## Quick Start
 ### An example for editing Llama3 (8B) on counterfact dataset using AlphaEdit
 #### 1. Edit Llama3 (8B) model 
