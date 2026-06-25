@@ -14,7 +14,8 @@
 
 - [x] Release inference code
 - [x] Release checkpoints
-- [ ] Release full public training and evaluation scripts 
+- [x] Release evaluation scripts 
+- [ ] Release full public training
 ---
 
 ## Requirements
