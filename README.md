@@ -3,10 +3,10 @@
 
 Knowledge editing aims to update incorrect or obsolete facts in large language models (LLMs) while preserving their previously acquired knowledge. However, as the editing scale increases, existing methods often exhibit performance degradation in both batch and sequential scenarios. 
 
-DS-LoRA addresses this scalability bottleneck by redesigns the low-rank branch with two theoretically grounded subspace projectors. The knowledge preservation subspace projector (KPSP) captures the critical factual semantics from input representations and mitigates interference with preserved knowledge through a null-space constraint. Meanwhile, the residual knowledge subspace projector (RKSP) aligns the DS-LoRA outputs with the semantic residuals between obsolete and target knowledge representations. By optimizing the mapping matrix between KPSP and RKSP, DS-LoRA learns target facts under dual-subspace constraints, thereby enabling effective knowledge updating while preserving edit-unrelated general knowledge.
+DS-LoRA addresses this scalability bottleneck by redesigning the low-rank branch with two theoretically grounded subspace projectors. The knowledge preservation subspace projector (KPSP) captures the critical factual semantics from input representations and mitigates interference with preserved knowledge through a null-space constraint. Meanwhile, the residual knowledge subspace projector (RKSP) aligns the DS-LoRA outputs with the semantic residuals between obsolete and target knowledge representations. By optimizing the mapping matrix between KPSP and RKSP, DS-LoRA learns target facts under dual-subspace constraints, thereby enabling effective knowledge updating while preserving edit-unrelated general knowledge.
 
 
-![alt text](fig/fig_total.png)
+![alt text](fig/fig_readme.png)
 *Figure: This is the overall architecture of our DS-LoRA method.*
 
 ---
