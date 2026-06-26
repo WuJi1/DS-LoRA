@@ -7,7 +7,6 @@ DS-LoRA addresses this scalability bottleneck by redesigning the low-rank branch
 
 
 ![alt text](fig/fig_readme.png)
-*Figure: This is the overall architecture of our DS-LoRA method.*
 
 ---
 
